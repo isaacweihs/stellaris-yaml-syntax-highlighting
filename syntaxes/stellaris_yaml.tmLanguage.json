@@ -1,0 +1,9 @@
+{
+  "name": "Stellaris YAML",
+  "scopeName": "source.stellaris-yaml",
+  "patterns": [
+    { "match": "^(l_[a-z]+):\\s*$", "name": "entity.name.section.locale.stellaris.yml" },
+    { "include": "stellaris.yaml.injection" },
+    { "include": "source.yaml" }
+  ]
+}
