@@ -1,0 +1,159 @@
+{
+  "scopeName": "stellaris.yaml.injection",
+  "injectionSelector": "L:source.stellaris-yaml & (string - comment), L:source.yaml & (string - comment)",
+  "patterns": [
+    { "include": "#stellaris-color-codes" },
+    { "include": "#stellaris-references" }
+  ],
+  "repository": {
+    "stellaris-color-codes": {
+      "patterns": [
+        { "include": "#color-code-w" },
+        { "include": "#color-code-t" },
+        { "include": "#color-code-lowercase_g" },
+        { "include": "#color-code-l" },
+        { "include": "#color-code-p" },
+        { "include": "#color-code-r" },
+        { "include": "#color-code-s" },
+        { "include": "#color-code-h" },
+        { "include": "#color-code-y" },
+        { "include": "#color-code-g" },
+        { "include": "#color-code-v" },
+        { "include": "#color-code-e" },
+        { "include": "#color-code-c" },
+        { "include": "#color-code-b" },
+        { "include": "#color-code-m" },
+        { "include": "#color-code-_" },
+        { "include": "#color-code-lowercase_c" },
+        { "include": "#color-code-lowercase_v" },
+        { "include": "#color-code-lowercase_d" },
+        { "include": "#color-code-lowercase_r" },
+        { "include": "#color-code-lowercase_l" }
+      ]
+    },
+    "stellaris-references": {
+      "patterns": [
+        { "include": "#bracket-command" },
+        { "include": "#loc-key" },
+        { "include": "#icon-code" }
+      ]
+    },
+    "bracket-command": {
+      "match": "\\[[^\\s\\n\\[\\]\\$]+\\]",
+      "name": "bracket-command.stellaris.yml"
+    },
+    "loc-key": {
+      "match": "\\$[^\\s\\n\\$]+\\$",
+      "name": "loc-key.stellaris.yml"
+    },
+    "icon-code": {
+      "match": "\\£[^\\s\\n\\£]+\\£",
+      "name": "keyword.icon-code.stellaris.yml"
+    },
+    "color-code-w": {
+      "begin": "§W",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.w.stellaris.yml"
+    },
+    "color-code-t": {
+      "begin": "§T",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.t.stellaris.yml"
+    },
+    "color-code-lowercase_g": {
+      "begin": "§g",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.lowercase_g.stellaris.yml"
+    },
+    "color-code-l": {
+      "begin": "§L",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.l.stellaris.yml"
+    },
+    "color-code-p": {
+      "begin": "§P",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.p.stellaris.yml"
+    },
+    "color-code-r": {
+      "begin": "§R",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.r.stellaris.yml"
+    },
+    "color-code-s": {
+      "begin": "§S",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.s.stellaris.yml"
+    },
+    "color-code-h": {
+      "begin": "§(H|K)",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.h.stellaris.yml"
+    },
+    "color-code-y": {
+      "begin": "§(Y|I)",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.y.stellaris.yml"
+    },
+    "color-code-g": {
+      "begin": "§G",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.g.stellaris.yml"
+    },
+    "color-code-v": {
+      "begin": "§V",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.v.stellaris.yml"
+    },
+    "color-code-e": {
+      "begin": "§E",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.e.stellaris.yml"
+    },
+    "color-code-c": {
+      "begin": "§C",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.c.stellaris.yml"
+    },
+    "color-code-b": {
+      "begin": "§B",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.b.stellaris.yml"
+    },
+    "color-code-_": {
+      "begin": "§_",
+      "end": "(§!|$)",
+      "name": "keyword.color-code._.stellaris.yml"
+    },
+    "color-code-m": {
+      "begin": "§M",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.m.stellaris.yml"
+    },
+    "color-code-lowercase_c": {
+      "begin": "§c",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.lowercase_c.stellaris.yml"
+    },
+    "color-code-lowercase_v": {
+      "begin": "§v",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.lowercase_v.stellaris.yml"
+    },
+    "color-code-lowercase_d": {
+      "begin": "§d",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.lowercase_d.stellaris.yml"
+    },
+    "color-code-lowercase_r": {
+      "begin": "§r",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.lowercase_r.stellaris.yml"
+    },
+    "color-code-lowercase_l": {
+      "begin": "§l",
+      "end": "(§!|$)",
+      "name": "keyword.color-code.lowercase_l.stellaris.yml"
+    }
+  }
+}
