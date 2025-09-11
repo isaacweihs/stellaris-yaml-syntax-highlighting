@@ -1,4 +1,4 @@
-# stellaris-yaml-syntax-highliting
+# stellaris-yaml-syntax-highlighting
 Adds syntax highlighting support for Stellaris YAML localization files to VSCode.
 Also adds color themes with native support for Stellaris YAML syntax highlighting
 
