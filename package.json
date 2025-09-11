@@ -2,7 +2,7 @@
 	"name": "stellaris-yaml-syntax-highlighting",
 	"displayName": "Stellaris Syntax Highligting for YAML/YML",
 	"description": "Adds support for syntax highlighting when using Stellaris localisation files (YML/YAML).",
-	"icon": "images/extensionlogo.jpg",
+	"icon": "images/thumbnail.jpg",
 	"publisher": "isaacweihs",
 	"version": "1.0.3",
 	"engines": {
