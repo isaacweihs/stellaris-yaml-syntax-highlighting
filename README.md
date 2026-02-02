@@ -8,7 +8,7 @@ Also adds color themes with native support for Stellaris YAML syntax highlightin
   - Limited support does exist for other themes not adjusted for specific syntaxing
 
 ## Credits
-This project is a patched version of [The24thDS](https://github.com/The24thDS/stellaris-yaml) very similar project that is now outdated.
+This project is a patched version of [The24thDS](https://github.com/The24thDS/stellaris-yaml) very similar project. I had issues with their project so I made an alternative version.
 
 ## Version
 Current version: 1.0.5
