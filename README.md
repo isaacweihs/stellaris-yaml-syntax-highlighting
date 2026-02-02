@@ -13,4 +13,4 @@ This project is a patched version of [The24thDS](https://github.com/The24thDS/st
 ## Version
 Current version: 1.0.5
 
-Last Updated: 2025/09/11
+Last Updated: 2026/02/02
